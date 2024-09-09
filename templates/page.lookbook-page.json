@@ -1,0 +1,199 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        ".rte {font-size: 12px; color: #0f0f0f;}"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "order_shipping_text_9EHrQy": {
+      "type": "order-shipping-text",
+      "disabled": true,
+      "settings": {
+        "heading": "Order & Shipping",
+        "content_top": "<h2>ORDER & SHIPPING<\/h2><h3>WHAT’S THE ESTIMATED DELIVERY TIME AND COST FOR SHIPMENT?<\/h3><p>We ship from Italy, below you can find the costs and estimated delivery times of our shipments.<\/p><p>*Rest of Europe includes:<br\/>all European countries except Italy, France, Germany, The Netherlands, Liechtenstein, Norway, Switzerland, Andorra, Malta, Cyprus.<br\/>For these countries Standard Shipping is € 13 (3-7 business days) and Express Shipping is € 25 (2-5 business days).<\/p><p>Rest of the World Zone 1 includes:<br\/>Albania, Belarus, Bosnia and Herzegovina, Faroe Islands, Gibraltar, Iceland, South Korea, Macedonia, Moldova, Montenegro, Serbia, Turkey.<\/p><p>Rest of the World Zone 2 includes:<br\/>the rest of the non-EU countries.<\/p><p>If you can't find your country or have any inquiries about shipment, please contact us at info@roa-hiking.com.<br\/>Shipping prices may slightly vary due to the currency exchange rate from Euro to your currency.<\/p><p>IMPORTANT NOTICE<br\/>Please make sure to properly fill out all the fields of the shipping address, especially your first and last name, for a quick and hassle-free delivery. If some information is unclear or missing, we'll need to ask you to provide a personal identification document to proceed with delivery.<\/p>",
+        "content_bottom": "<h3>HOW LONG DOES ORDERS DISPATCH USUALLY TAKE?<\/h3><p>We usually process and dispatch orders within 1-2 business days upon receipt. You will receive an email update as soon as we arrange the shipment of your order, which will also include a tracking link. Please note that during promotional offers and seasonal sale, the dispatch process can experience slowdowns and take several days.<\/p><p>Carriers generally make three attempts to deliver your parcel. If delivery fails after three attempts, the parcel will be sent back to us. Any eventual import duties and taxes or shipping fees related to the return of your parcel will be deducted from your refund. Please note that the original shipping costs - if any - are never refunded.<\/p>"
+      }
+    },
+    "custom_rich_text_PA9FaM": {
+      "type": "custom-rich-text",
+      "blocks": {
+        "text_pQGJDK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SS24 Campaign<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_pQGJDK"
+      ],
+      "settings": {
+        "height": "medium",
+        "section_spacing_block": 54,
+        "section_spacing_inline": 54,
+        "text_alignment": "left",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "slideshow_Uw7hfP": {
+      "type": "slideshow",
+      "blocks": {
+        "image_MrJDNm": {
+          "type": "image",
+          "settings": {
+            "img_btn": true,
+            "image": "shopify:\/\/shop_images\/desktop-hero-image.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/20ss7O_1.jpg",
+            "video_url_btn": false,
+            "video_url": "",
+            "image_position": "center center",
+            "mobile_image_position": "center center",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_MrJDNm"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "slide_transition": "fade",
+        "slide_navigation": "arrows",
+        "autoplay": false
+      }
+    },
+    "custom_text_columns_UYyWjL": {
+      "type": "custom-text-columns",
+      "blocks": {
+        "text_EaGaAX": {
+          "type": "text",
+          "settings": {
+            "title": "<p>SS24<\/p><p>Photography by Anders Edström<\/p><p>Styling and Casting by Gary David Moore<\/p>",
+            "text": "<p>LACLAVI, born in Dallas, was inspired by the city’s toughest weather conditions in summer and unwavering enthusiasm for the sports. Our garments are crafted to withstand the elements, from wind and rain to sun and sweat, without compromising comfort or style. But LACLAVI is more than just clothing brand - it is a sanctuary for the soul.<\/p><p>Our journey began with a date engineer, an ardent golfer. Golf led him on a journey of inner peace and self-discovery. Fueled by this transformative experience, he set out on a mission to create golf apparel that enhances performance and embodies peace of mind.<\/p><p>At LACLAVI, we believe that true luxury lies in the freedom to live authentically, to pursue our inner harmony by following our hearts. To embrace every possibility and enjoy every moment, both on and off the green. Join us as we redefine the boundaries of golf menswear and embark on a journey of self-discovery.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_EaGaAX"
+      ],
+      "settings": {
+        "section_spacing_block": 198,
+        "section_spacing_inline": 54,
+        "section_spacing_block_mobile": 48,
+        "section_spacing_inline_mobile": 16
+      }
+    },
+    "lookbook_slider_ADhDRE": {
+      "type": "lookbook-slider",
+      "blocks": {
+        "slide_J4bTbK": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle2_629d939a-7bb6-450e-b6ef-df4f3b099f37.jpg"
+          }
+        },
+        "slide_WiWKpt": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle2_7775d7c6-b023-4cc4-854f-c4632602e020.jpg"
+          }
+        },
+        "slide_wDR7PC": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle2_629d939a-7bb6-450e-b6ef-df4f3b099f37.jpg"
+          }
+        },
+        "slide_VWdGAP": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle2_629d939a-7bb6-450e-b6ef-df4f3b099f37.jpg"
+          }
+        },
+        "slide_Q4rfP9": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle2_629d939a-7bb6-450e-b6ef-df4f3b099f37.jpg"
+          }
+        },
+        "slide_tEmhXB": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle2_fc07a795-ed66-4ff9-a6b7-7b1fc9e0c0e2.jpg"
+          }
+        },
+        "slide_Gdz43r": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle2_629d939a-7bb6-450e-b6ef-df4f3b099f37.jpg"
+          }
+        },
+        "slide_bgFYxe": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle2_fc07a795-ed66-4ff9-a6b7-7b1fc9e0c0e2.jpg"
+          }
+        },
+        "slide_Vz69C8": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle2_fc07a795-ed66-4ff9-a6b7-7b1fc9e0c0e2.jpg"
+          }
+        },
+        "slide_NVRmaw": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle2_fc07a795-ed66-4ff9-a6b7-7b1fc9e0c0e2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_J4bTbK",
+        "slide_WiWKpt",
+        "slide_wDR7PC",
+        "slide_VWdGAP",
+        "slide_Q4rfP9",
+        "slide_tEmhXB",
+        "slide_Gdz43r",
+        "slide_bgFYxe",
+        "slide_Vz69C8",
+        "slide_NVRmaw"
+      ],
+      "settings": {
+        "section_spacing_inline": 16,
+        "section_spacing_inline_mobile": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "order_shipping_text_9EHrQy",
+    "custom_rich_text_PA9FaM",
+    "slideshow_Uw7hfP",
+    "custom_text_columns_UYyWjL",
+    "lookbook_slider_ADhDRE"
+  ]
+}

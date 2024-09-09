@@ -1,0 +1,119 @@
+<div class="mission-image-text">
+  <div class="mission-image-text-inner">
+    <div class="container">
+      <div class="mission-image-text-row">
+        <div class="mission-image-col">
+          <div class="image">
+            <img src="{{ section.settings.image | img_url: 'master' }}">
+          </div>
+        </div>
+        <div class="mission-text-col">
+          <div class="mission-text-inner">
+            <div class="mission-content">
+              {% style %}
+              .mission_disktop {
+                display: block;
+              }
+
+              @media (max-width: 768px) {
+                .mission_disktop {
+                  display: none;
+                }
+              }
+              .mission_mobile {
+                display: none;
+              }
+                .mission_mobile p:first-child {
+                  padding-bottom: 60px;
+                  letter-spacing: 0.1px;
+                }
+              .mission_mobile p {
+                letter-spacing: 0.1px;
+              }
+              @media (max-width: 425px) {
+                .mission_mobile p:first-child {
+                  padding-bottom: 37px;
+                }
+              }
+            @media (max-width: 415px) {
+              .mission_mobile p:first-child {
+                  padding-bottom: 15px;
+                }
+            }
+
+              @media (max-width: 767px) {
+                .mission_mobile {
+                  display: block;
+                }
+              }
+              {% endstyle %}
+              <h3 class="mission_disktop">{{ section.settings.content }}</h3>
+              <h3 class="mission_mobile">{{ section.settings.content_mobile }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .mission-image-text-inner {
+    margin-inline: {{section.settings.section_spacing_inline}}px;
+    margin-block: {{section.settings.section_spacing_block}}px;
+  }
+</style>
+
+{% schema %}
+  {
+  "name": "Mission Image Text",
+  "settings": [
+    {
+        "type": "range",
+        "id": "section_spacing_block",
+        "label": "Section Top Bottom Margin",
+        "min": 0,
+        "max": 150,
+        "step": 2,
+        "unit": "px",
+        "default": 88
+    },
+    {
+        "type": "range",
+        "id": "section_spacing_inline",
+        "label": "Section Left Right Spacing",
+        "min": 0,
+        "max": 150,
+        "step": 2,
+        "unit": "px",
+        "default": 54
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "image"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "content"
+    },
+    {
+      "type": "richtext",
+      "id": "content_mobile",
+      "label": "content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mission Image Text"
+    }
+  ]
+}  
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
